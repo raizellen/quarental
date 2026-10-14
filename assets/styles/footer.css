@@ -1,0 +1,27 @@
+* {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+}
+
+footer {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #f9f9f9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#site-footer {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#site-footer.show {
+    display: block;
+    opacity: 1;
+}
